@@ -1,0 +1,63 @@
+/* 基础样式重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 表格基础样式 */
+#dataTable {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#dataTable th, #dataTable td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* 分页控件样式 */
+#paginationControls {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#paginationControls button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+#paginationControls button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+#paginationControls button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#paginationControls .page-number {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+#paginationControls input {
+    padding: 8px;
+    margin: 0 10px;
+    font-size: 16px;
+}
